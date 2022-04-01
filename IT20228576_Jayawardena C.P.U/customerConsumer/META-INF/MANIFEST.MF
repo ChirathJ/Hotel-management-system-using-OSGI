@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CustomerConsumer
+Bundle-SymbolicName: customerConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: customerconsumer.customerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: customerConsumer
+Import-Package: billProducerService,
+ org.osgi.framework;version="1.3.0",
+ roomProducerService
+Bundle-ActivationPolicy: lazy

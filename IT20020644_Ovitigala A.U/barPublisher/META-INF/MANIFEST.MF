@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BarPublisher
+Bundle-SymbolicName: barPublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.mtit.bar.BarActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: org.osgi.framework;version="1.3.0"
+Export-Package: com.mtit.bar,
+ com.mtit.bar.service
+

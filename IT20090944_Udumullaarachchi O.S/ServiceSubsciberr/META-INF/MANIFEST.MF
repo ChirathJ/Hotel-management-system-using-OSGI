@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ServiceSubsciberr
+Bundle-SymbolicName: chefSubsciber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: servicesubsciberr.ServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: ServiceSubsciberr
+Import-Package: FoodService,
+ org.osgi.framework;version="1.3.0",
+ servicepublisherr
+Bundle-ActivationPolicy: lazy

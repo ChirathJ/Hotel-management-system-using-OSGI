@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BarSubscriber
+Bundle-SymbolicName: barTenderSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: bartendersubscriber.BarTenderActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: com.mtit.bar,
+ com.mtit.bar.service,
+ org.osgi.framework;version="1.3.0"
+
