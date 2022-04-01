@@ -1,4 +1,4 @@
-# hotel-management-system-using-OSGI
+# Hotel-management-system-using-OSGI
 
 This is a scenario based in a hotel system. There are 6 producers and 5 consumers.
 Manager, Customer, Bartender, Receptionist and Hotel food service (Chef) are the consumers,
